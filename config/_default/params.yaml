@@ -35,6 +35,7 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
+      icon: icon.png
       text: "Luis Angel GH"
 
 # Site footer

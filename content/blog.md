@@ -4,7 +4,7 @@ date: 2023-10-24
 type: landing
 
 design:
-  spacing: '5rem'
+  spacing: '3rem'
 
 # Note: `username` refers to the user's folder name in `content/authors/`
 
@@ -16,7 +16,7 @@ sections:
       title: Featured Publications
       filters:
         folders:
-          - publication
+          - blog/publication
         featured_only: true
     design:
       view: article-grid
@@ -27,7 +27,7 @@ sections:
       text: ""
       filters:
         folders:
-          - publication
+          - blog/publication
         exclude_featured: false
     design:
       view: citation
@@ -37,7 +37,7 @@ sections:
       title: Recent & Upcoming Talks
       filters:
         folders:
-          - event
+          - blog/event
     design:
       view: article-grid
       columns: 1

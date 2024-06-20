@@ -16,7 +16,7 @@ sections:
       title: Featured Publications
       filters:
         folders:
-          - blog/publication
+          - publication
         featured_only: true
     design:
       view: article-grid
@@ -27,7 +27,7 @@ sections:
       text: ""
       filters:
         folders:
-          - blog/publication
+          - publication
         exclude_featured: false
     design:
       view: citation
@@ -37,7 +37,7 @@ sections:
       title: Recent & Upcoming Talks
       filters:
         folders:
-          - blog/event
+          - event
     design:
       view: article-grid
       columns: 1

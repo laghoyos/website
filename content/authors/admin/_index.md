@@ -56,7 +56,7 @@ education:
       - Geospatial Data Analysis
       - Engineering Computing
       
-      Thesis on _Calibration of Phisic-Based Model for Earthquake-induced Landslides Hazards_. Supervised by [Prof. Joe Wartman](https://www.ce.washington.edu/facultyfinder/joseph-wartman).
+      Thesis on _Calibration of Phisic-Based Model for Earthquake-induced Landslides Hazards_. Supervised by [Prof Joe Wartman](https://www.ce.washington.edu/facultyfinder/joseph-wartman).
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
@@ -74,7 +74,7 @@ education:
 work:
   - position: Geotechnical Monitoring Analyst
     company_name: Hexagon Geospatial
-    company_url: 'https://hexagon.com/company/divisions/safety-infrastructure-geospatial'
+    company_url: https://hexagon.com/company/divisions/safety-infrastructure-geospatial
     company_logo: hxgn_logo.png
     date_start: 2021-07-15
     date_end: 2023-08-31
@@ -84,7 +84,7 @@ work:
       - Report instable areas to the customer for their decision-making
   - position: Geological Engineer
     company_name: South32
-    company_url: 'https://www.south32.net/what-we-do/our-locations/americas/cerro-matoso'
+    company_url: https://www.south32.net/what-we-do/our-locations/americas/cerro-matoso
     company_logo: ''
     date_start: 2019-01-24
     date_end: 2021-06-30
@@ -139,7 +139,7 @@ awards:
     url: https://www.ce.washington.edu/current/abroad/valle
     date: '2023-08-01'
     awarder: University of Washington
-    icon: uw
+    icon: htmlacademy
     summary: |
       I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
   - title: 

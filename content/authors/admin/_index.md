@@ -56,7 +56,7 @@ education:
       - Geospatial Data Analysis
       - Engineering Computing
       
-      Thesis on _Calibration of Phisic-Based Model for Earthquake-induced Landslides Hazards_. Supervised by Prof. [Joe Wartman](https://www.cs.washington.edu/).
+      Thesis on _Calibration of Phisic-Based Model for Earthquake-induced Landslides Hazards_. Supervised by Prof. [Joe Wartman](https://www.ce.washington.edu/facultyfinder/joseph-wartman).
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
@@ -105,12 +105,16 @@ skills:
         icon: code-bracket
       - name: SQL
         description: ''
-        percent: 50
+        percent: 40
         icon: circle-stack
       - name: Data Analysis
         description: ''
         percent: 100
         icon: chart-bar
+      - name: GitHub
+        description: ''
+        percent: 100
+        icon: github
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -118,11 +122,15 @@ skills:
       - name: Soccer
         description: ''
         percent: 100
-        icon: soccer-ball
-      - name: Photography
+        icon: soccer
+      - name: Traveling
         description: ''
         percent: 70
-        icon: camera
+        icon: airplane
+      - name: Food
+        description: ''
+        percent: 70
+        icon: bowl-food
 
 languages:
   - name: English

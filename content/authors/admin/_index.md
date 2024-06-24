@@ -122,15 +122,15 @@ skills:
       - name: Soccer
         description: ''
         percent: 100
-        icon: soccer
+        icon: custom/soccer
       - name: Traveling
         description: ''
         percent: 70
-        icon: airplane
+        icon: custom/airplane
       - name: Food
         description: ''
         percent: 70
-        icon: bowl-food
+        icon: custom/food
 
 languages:
   - name: English

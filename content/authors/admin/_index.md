@@ -114,7 +114,7 @@ skills:
       - name: GitHub
         description: ''
         percent: 100
-        icon: hb/github
+        icon: hero/sparkles
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'

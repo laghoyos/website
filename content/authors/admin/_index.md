@@ -114,7 +114,7 @@ skills:
       - name: GitHub
         description: ''
         percent: 100
-        icon: hero/sparkles
+        icon: hugomods/github
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -122,15 +122,15 @@ skills:
       - name: Soccer
         description: ''
         percent: 100
-        icon: custom/soccer
+        icon: hugomods/soccer-ball
       - name: Traveling
         description: ''
         percent: 70
-        icon: custom/airplane
+        icon: hugomods/airplane
       - name: Food
         description: ''
         percent: 70
-        icon: custom/food
+        icon: hugomods/food
 
 languages:
   - name: English

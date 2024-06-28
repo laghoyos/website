@@ -126,7 +126,7 @@ skills:
       - name: Traveling
         description: ''
         percent: 70
-        icon: "fa-solid fa-filter"
+        icon: <i class="fas fa-coffee"></i>
       - name: Food
         description: ''
         percent: 70

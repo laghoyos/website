@@ -126,7 +126,7 @@ skills:
       - name: Traveling
         description: ''
         percent: 70
-        icon: fa-regular fa-plane
+        icon: "fa-regular fa-plane"
       - name: Food
         description: ''
         percent: 70

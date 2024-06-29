@@ -57,9 +57,9 @@ education:
       - Engineering Computing
       
       Thesis on _Calibration of Phisic-Based Model for Earthquake-induced Landslides Hazards_. Supervised by Prof. [Joe Wartman](https://www.ce.washington.edu/facultyfinder/joseph-wartman).
-    # button:
-    #   text: 'Read Thesis'
-    #   url: 'https://example.com'
+    button:
+      text: 'Read Thesis'
+      url: 'https://example.com'
   - area: BSc Geological Engineering
     institution: Universidad Nacional de Colombia
     date_start: 2013-02-04

@@ -28,9 +28,6 @@ sections:
     content:
       title: Awards & Certifications
       username: admin
-      button:
-        text: See
-        url: uploads/georadars.pdf
   - block: resume-languages
     content:
       title: Languages

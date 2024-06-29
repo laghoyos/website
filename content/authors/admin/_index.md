@@ -168,7 +168,7 @@ awards:
         content:
           button:
             text: See Certification
-            url: static/uploads/fellowship.pdf
+            url: uploads/fellowship.pdf
   - title: Radar Monitoring
     url: https://mining.arizona.edu/professional-development
     date: '2020-12-01'

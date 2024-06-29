@@ -75,13 +75,13 @@ work:
   - position: Research Assistant and Scientist
     company_name: University of Washington
     company_url: https://www.ce.washington.edu/
-    company_logo: 
+    company_logo: uw.png
     date_start: 2023-09-24
-    date_end: present
+    date_end: {date}
     summary: |2-
       Responsibilities include:
       - Investigating the geospatial relationships between earthquake-induced landslides and their reactivations.
-      - Interaction with geospatial data types, both rasters (GeoTIFF) and vectors (GeoJSON, geopackage) and satellite imagery
+      - Interaction with geospatial data types, both rasters (GeoTIFF) and vectors (GeoJSON, geopackage) and satellite imagery.
   - position: Geotechnical Monitoring Analyst
     company_name: Hexagon Geospatial
     company_url: https://hexagon.com/company/divisions/safety-infrastructure-geospatial

@@ -89,8 +89,8 @@ work:
     date_end: 2023-08-31
     summary: |2-
       Responsibilities include:
-      - Analysis and management of InSAR data from ground-based georadars
-      - Report instable areas to the customer for their decision-making
+      - Analysis and management of InSAR data from ground-based georadars.
+      - Report instable areas to the customer for their decision-making.
   - position: Geological Engineer
     company_name: South32
     company_url: https://www.south32.net/what-we-do/our-locations/americas/cerro-matoso
@@ -99,9 +99,9 @@ work:
     date_end: 2021-06-30
     summary: |
       Responsibilities include:
-      - Managemement of GIS databases of drilling samples
-      - Drilling samples data entry
-      - Plan, excecute and supervise drillings 
+      - Managemement of GIS databases of drilling samples.
+      - Drilling samples data entry.
+      - Plan, excecute and supervise drillings.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -160,19 +160,19 @@ awards:
     url: https://www.ce.washington.edu/current/abroad/valle
     date: '2023-08-01'
     awarder: University of Washington
-    icon: htmlacademy
+    icon: custom/uw
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: 
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
+      This fellowship award at the University of Washington underscores his expertise in geospatial data analysis, InSAR (Interferometric Synthetic Aperture Radar) techniques, and coding proficiency. His demonstrated skills in harnessing geospatial data and employing advanced remote sensing technologies like InSAR highlight your commitment to advancing knowledge in earth sciences and spatial analysis.
+  - title: Radar Monitoring
+    url: https://mining.arizona.edu/professional-development
+    date: '2020-12-01'
     awarder: edX
-    icon: edx
+    icon: custom/arizona
     summary: |
       Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+        - Ground-based Synthetic Aperture Radar (SAR).
+        - Ground-based Real Aperture Radar (RAR) • Satellite-based InSAR.
+        - Capabilities/limitations • Data interpretation • Real-world examples and case studies.
 
 ---
 

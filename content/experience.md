@@ -28,6 +28,11 @@ sections:
     content:
       title: Awards & Certifications
       username: admin
+      buttons:
+        - title: See Certification
+          url: https://laghoyos.github.io/website/uploads/fellowship.pdf 
+        - title: See Certification
+          url: https://laghoyos.github.io/website/uploads/georadars.pdf 
   - block: resume-languages
     content:
       title: Languages

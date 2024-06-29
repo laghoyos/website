@@ -28,6 +28,9 @@ sections:
     content:
       title: Awards & Certifications
       username: admin
+      button:
+        text: See
+        url: 'https://laghoyos.github.io/website/uploads/georadars.pdf'
   - block: resume-languages
     content:
       title: Languages

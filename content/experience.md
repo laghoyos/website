@@ -30,7 +30,7 @@ sections:
       username: admin
       button:
         text: See
-        url: 'https://laghoyos.github.io/website/uploads/georadars.pdf'
+        url: https://laghoyos.github.io/website/uploads/georadars.pdf
   - block: resume-languages
     content:
       title: Languages

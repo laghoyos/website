@@ -119,7 +119,7 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Soccer
+      - name: Football
         description: ''
         percent: 100
         icon: custom/soccer
@@ -131,6 +131,10 @@ skills:
         description: ''
         percent: 70
         icon: custom/food
+      - name: Music
+        description: ''
+        percent: 70
+        icon: custom/music
 
 languages:
   - name: English

@@ -173,7 +173,7 @@ awards:
     url: https://mining.arizona.edu/professional-development
     date: '2020-12-01'
     awarder: University of Arizona
-    icon: custom/arizona
+    icon: custom/music
     summary: |
       Learned:
         - Ground-based Synthetic Aperture Radar (SAR).

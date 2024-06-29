@@ -102,19 +102,19 @@ skills:
       - name: Python
         description: ''
         percent: 90
-        icon: code-bracket
+        icon: custom/code
       - name: SQL
         description: ''
         percent: 40
-        icon: circle-stack
+        icon: custom/sql
       - name: Data Analysis
         description: ''
         percent: 100
-        icon: chart-bar
+        icon: custom/data
       - name: GitHub
         description: ''
         percent: 100
-        icon: hero/sparkles
+        icon: custom/github
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'

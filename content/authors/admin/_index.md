@@ -77,7 +77,6 @@ work:
     company_url: https://www.ce.washington.edu/
     company_logo: uw.png
     date_start: 2023-09-24
-    date_end: {date}
     summary: |2-
       Responsibilities include:
       - Investigating the geospatial relationships between earthquake-induced landslides and their reactivations.

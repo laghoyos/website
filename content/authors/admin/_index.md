@@ -160,14 +160,12 @@ awards:
     url: https://www.ce.washington.edu/current/abroad/valle
     date: '2023-08-01'
     awarder: University of Washington
-    icon: /assets/media/icons/custom/uw.svg
+    icon: custom/uw
     summary: |
       This fellowship award at the University of Washington underscores my expertise in geospatial data analysis, InSAR (Interferometric Synthetic Aperture Radar) techniques, and coding proficiency. My demonstrated skills in harnessing geospatial data and employing advanced remote sensing technologies like InSAR highlight your commitment to advancing knowledge in earth sciences and spatial analysis.
-    sections:
-      content:
-        button:
-          text: See Certification
-          url: uploads/fellowship.pdf
+    button:
+      text: 'See Certification'
+      url: 'uploads/fellowship.pdf'
   - title: Radar Monitoring
     url: https://mining.arizona.edu/professional-development
     date: '2020-12-01'
@@ -178,10 +176,9 @@ awards:
         - Ground-based Synthetic Aperture Radar (SAR).
         - Ground-based Real Aperture Radar (RAR) • Satellite-based InSAR.
         - Capabilities/limitations • Data interpretation • Real-world examples and case studies.
-    content:
-      button:
-        text: See Certification
-        url: uploads/georadars.pdf
+    button:
+      text: 'See Certification'
+      url: 'uploads/georadars.pdf'
 
 ---
 

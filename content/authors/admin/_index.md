@@ -161,8 +161,8 @@ awards:
     date: '2023-08-01'
     awarder: University of Washington
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
+      - text: 'Read Thesis'
+        url: 'https://example.com'
     # icon: custom/uw
     summary: |
       This fellowship award at the University of Washington underscores my expertise in geospatial data analysis, InSAR (Interferometric Synthetic Aperture Radar) techniques, and coding proficiency. My demonstrated skills in harnessing geospatial data and employing advanced remote sensing technologies like InSAR highlight your commitment to advancing knowledge in earth sciences and spatial analysis.

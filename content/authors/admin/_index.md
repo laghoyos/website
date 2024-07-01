@@ -56,7 +56,7 @@ education:
       - Geospatial Data Analysis
       - Engineering Computing
       
-      Thesis on _Calibration of Phisic-Based Model for Earthquake-induced Landslides Hazards_. Supervised by Prof. [Wartman] (https://www.ce.washington.edu/facultyfinder/joseph-wartman).
+      Thesis on _Calibration of Phisic-Based Model for Earthquake-induced Landslides Hazards_. Supervised by Prof. [Wartman](https://www.ce.washington.edu/facultyfinder/joseph-wartman).
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
@@ -160,18 +160,18 @@ awards:
     url: https://www.ce.washington.edu/current/abroad/valle
     date: '2023-08-01'
     awarder: University of Washington
+    # icon: custom/uw
+    summary: |2-
+      This fellowship award at the University of Washington underscores my expertise in geospatial data analysis, InSAR (Interferometric Synthetic Aperture Radar) techniques, and coding proficiency. My demonstrated skills in harnessing geospatial data and employing advanced remote sensing technologies like InSAR highlight your commitment to advancing knowledge in earth sciences and spatial analysis.
     button:
       - text: 'Read Thesis'
         url: 'https://example.com'
-    # icon: custom/uw
-    summary: |
-      This fellowship award at the University of Washington underscores my expertise in geospatial data analysis, InSAR (Interferometric Synthetic Aperture Radar) techniques, and coding proficiency. My demonstrated skills in harnessing geospatial data and employing advanced remote sensing technologies like InSAR highlight your commitment to advancing knowledge in earth sciences and spatial analysis.
   - title: Radar Monitoring
     url: https://mining.arizona.edu/professional-development
     date: '2020-12-01'
     awarder: University of Arizona
     # icon: /assets/media/icons/custom/arizona.svg
-    summary: |
+    summary: |2-
       Learned:
         - Ground-based Synthetic Aperture Radar (SAR).
         - Ground-based Real Aperture Radar (RAR) • Satellite-based InSAR.
@@ -184,4 +184,4 @@ awards:
 
 ## About Me
 
-Luis Angel is a Sc.M student in the CEE Department at the University of Washington. Holds a Sc.B degree in Geological Engineering from the Universidad Nacional de Colombia, with 5+ years of industry experience. Passionate about geospatial data, GIS, and remote sensing, he excels in both autonomous and team-based learning environments. With outstanding interpersonal, written, and communication skills, he is adaptable to change and committed to continuous improvement. His creative and innovative mindset is focused on problem-solving, particularly within the realms of geospatial analysis, data engineering, geophysics, geotechnical engineering, and risk management.. Thesis on _Calibration of Phisic-Based Model for Earthquake-induced Landslides Hazards_. Supervised by Prof. [Joe Wartman](https://www.ce.washington.edu/facultyfinder/joseph-wartman).
+Luis Angel is a Sc.M student in the CEE Department at the University of Washington. Holds a Sc.B degree in Geological Engineering from the Universidad Nacional de Colombia, with 5+ years of industry experience. Passionate about geospatial data, GIS, and remote sensing, he excels in both autonomous and team-based learning environments. With outstanding interpersonal, written, and communication skills, he is adaptable to change and committed to continuous improvement. His creative and innovative mindset is focused on problem-solving, particularly within the realms of geospatial analysis, data engineering, geophysics, geotechnical engineering, and risk management.

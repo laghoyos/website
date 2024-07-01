@@ -160,9 +160,11 @@ awards:
     url: https://www.ce.washington.edu/current/abroad/valle
     date: '2023-08-01'
     awarder: University of Washington
-    button:
-      text: 'See Certificate'
-      url: 'uploads/fellowship.pdf'
+    - block: buttons
+      content:
+        buttons:
+          - title: See Certificate
+            url: https://laghoyos.github.io/website/uploads/georadars.pdf
     # icon: custom/uw
     summary: |
       This fellowship award at the University of Washington underscores my expertise in geospatial data analysis, InSAR (Interferometric Synthetic Aperture Radar) techniques, and coding proficiency. My demonstrated skills in harnessing geospatial data and employing advanced remote sensing technologies like InSAR highlight your commitment to advancing knowledge in earth sciences and spatial analysis.

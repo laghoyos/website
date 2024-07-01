@@ -57,9 +57,9 @@ education:
       - Engineering Computing
       
       Thesis on _Calibration of Phisic-Based Model for Earthquake-induced Landslides Hazards_. Supervised by Prof. [Wartman](https://www.ce.washington.edu/facultyfinder/joseph-wartman).
-    links:
-      name: Read Thesis
-      url: https://example.com
+    button:
+      text: 'Read Thesis'
+      url: 'https://example.com'
   - area: BSc Geological Engineering
     institution: Universidad Nacional de Colombia
     date_start: 2013-02-04
@@ -163,9 +163,7 @@ awards:
     # icon: custom/uw
     summary: |2-
       This fellowship award at the University of Washington underscores my expertise in geospatial data analysis, InSAR (Interferometric Synthetic Aperture Radar) techniques, and coding proficiency. My demonstrated skills in harnessing geospatial data and employing advanced remote sensing technologies like InSAR highlight your commitment to advancing knowledge in earth sciences and spatial analysis.
-    button:
-      - text: 'Read Thesis'
-        url: 'https://example.com'
+    url_pdf: https://laghoyos.github.io/website/uploads/georadars.pdf
   - title: Radar Monitoring
     url: https://mining.arizona.edu/professional-development
     date: '2020-12-01'

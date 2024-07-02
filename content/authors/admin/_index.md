@@ -163,7 +163,10 @@ awards:
     # icon: custom/uw
     summary: |2-
       This fellowship award at the University of Washington underscores my expertise in geospatial data analysis, InSAR (Interferometric Synthetic Aperture Radar) techniques, and coding proficiency. My demonstrated skills in harnessing geospatial data and employing advanced remote sensing technologies like InSAR highlight your commitment to advancing knowledge in earth sciences and spatial analysis.
-      <a href="https://example.com" style="display:inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #0073e6; text-decoration: none; border-radius: 5px; margin-top: 10px;">Read More</a>
+      
+      <a href="https://example.com" style="display:inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #BCBCBC; text-decoration: none; border-radius: 5px; margin-top: 10px;">
+      <i class="fas fa-download" style="margin-right: 8px;"></i>Read More
+      </a>
   - title: Radar Monitoring
     url: https://mining.arizona.edu/professional-development
     date: '2020-12-01'
@@ -174,7 +177,10 @@ awards:
         - Ground-based Synthetic Aperture Radar (SAR).
         - Ground-based Real Aperture Radar (RAR) • Satellite-based InSAR.
         - Capabilities/limitations • Data interpretation • Real-world examples and case studies.
-      <a href="https://laghoyos.github.io/website/uploads/georadars.pdf" style="display:inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #0073e6; text-decoration: none; border-radius: 5px; margin-top: 10px;">See Certification</a>
+      
+      <a href="https://example.com" style="display:inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #BCBCBC; text-decoration: none; border-radius: 5px; margin-top: 10px;">
+      <i class="fas fa-download" style="margin-right: 8px;"></i>Read More
+      </a>
 
 
 ---

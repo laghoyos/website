@@ -6,7 +6,7 @@ tags:
   - UW
 ---
 
-![Image Description](\assets\media\ss.png)
+![Image Description](/assets/media/ss.png)
 
 Identify ground changes on landslide deposits after initial landsliding, and describe the factors that may have controlled these ground changes from geospatial relationships.
 

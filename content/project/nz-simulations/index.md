@@ -6,6 +6,8 @@ tags:
   - UW
 ---
 
-This page describes a preliminarly approach for landslide risk assesment which propose an initial workflow. An example, which uses Jibson (1993) model to predict Newmark sliding block displacements, is presented for a portion of the city of Seattle, WA. Resources from SimCenter M9 project are used in the example to estimate ground-motion intensity parameters.
+![Image Description](\assets\media\nzs.png)
+
+This page describes a preliminary approach for landslide risk assessment which proposes an initial workflow. An example using the Jibson (1993) model to predict Newmark sliding block displacements is presented for a portion of Seattle, WA. Resources from the SimCenter M9 project are used to estimate ground-motion intensity parameters.
 
 <!--more-->

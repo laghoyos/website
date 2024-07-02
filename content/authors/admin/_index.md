@@ -48,7 +48,7 @@ education:
     institution: University of Washington
     date_start: 2023-09-27
     date_end: 2025-05-31
-    summary: |
+    summary: |2-
       GPA: 3.86/4.0
       
       Courses included:
@@ -64,7 +64,7 @@ education:
     institution: Universidad Nacional de Colombia
     date_start: 2013-02-04
     date_end: 2018-12-31
-    summary: |
+    summary: |2-
       GPA: 4.2/5
       
       Courses included:

@@ -1,11 +1,11 @@
 ---
-title: NZ-Simulations
-date: 2024-02-04
-external_link: https://github.com/UW-GDA/nz-landslides
+title: Seattle-Simulations
+date: 2024-06-10
+external_link: https://parduino.github.io/CESG599_NHERI.documentation/case_6.html
 tags:
   - UW
 ---
 
-Identify ground changes on landslide deposits after initial landsliding, and describe the factors that may have controlled these ground changes from geospatial relationships.
+This page describes a preliminarly approach for landslide risk assesment which propose an initial workflow. An example, which uses Jibson (1993) model to predict Newmark sliding block displacements, is presented for a portion of the city of Seattle, WA. Resources from SimCenter M9 project are used in the example to estimate ground-motion intensity parameters.
 
 <!--more-->

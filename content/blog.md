@@ -44,8 +44,9 @@ sections:
   - block: collection
     id: news
     content:
-      title: ''
-      subtitle: 'Recent News'
+      title: '  
+      Recent News'
+      subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
       page_type: post

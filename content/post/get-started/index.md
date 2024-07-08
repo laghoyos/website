@@ -1,5 +1,5 @@
 ---
-title: 🎉 Copa America - Brazil vs Colombia
+title: ⚽ Copa America - Brazil vs Colombia
 summary: Colombia Football National team faced Brazil in the last game of the first leg for the Copa America at Levi's Stadium in Santa Clara, CA!
 date: 2024-07-02
 

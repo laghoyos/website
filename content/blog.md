@@ -44,7 +44,7 @@ sections:
   - block: collection
     id: news
     content:
-      title: '  
+      title: ' \
       Recent News'
       subtitle: ''
       text: ''

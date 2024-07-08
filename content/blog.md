@@ -6,6 +6,7 @@ type: landing
 design:
   spacing: '3rem'
 
+<section style="padding:0">
 # Note: `username` refers to the user's folder name in `content/authors/`
 
 # Page sections
@@ -40,6 +41,7 @@ sections:
   #   design:
   #     view: article-grid
   #     columns: 1
+  
   - block: collection
     id: news
     content:
@@ -47,7 +49,7 @@ sections:
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
-      page_type: talk
+      page_type: post
       # Choose how many pages you would like to display (0 = all pages)
       count: 0
       # Filter on criteria

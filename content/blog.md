@@ -6,7 +6,7 @@ type: landing
 design:
   spacing: '3rem'
 
-<section style="padding:0">
+<section style="padding:3">
 # Note: `username` refers to the user's folder name in `content/authors/`
 
 # Page sections

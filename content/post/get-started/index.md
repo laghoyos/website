@@ -10,7 +10,6 @@ image:
 
 authors:
   - admin
-  - Ted
 
 tags:
   - Academic

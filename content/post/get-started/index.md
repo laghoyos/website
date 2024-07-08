@@ -10,9 +10,6 @@ image:
 
 authors:
   - admin
-
-tags:
-  - Markdown
 ---
 
 I recently had the incredible experience of watching a football game live for the first time outside Colombia, witnessing the intense Brazil vs. Colombia match during the Copa América 2024. This match, which ended in a 1-1 draw, was made even more special as I shared it with family and friends. The excitement of the game was heightened by the thrill of exploring new places. I had the chance to visit the iconic Golden Gate Bridge and enjoy the vibrant atmosphere of Pier 39, adding unforgettable moments to this memorable trip outside my home country, Colombia.

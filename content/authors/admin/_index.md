@@ -41,7 +41,8 @@ profiles:
 interests:
   - Remote sensing
   - Geospatial data
-  - Data management
+  - Data analysis
+  - Coding
 
 education:
   - area: MSc Civil Engineering

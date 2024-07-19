@@ -163,7 +163,7 @@ awards:
     awarder: University of Washington
     # icon: custom/uw
     summary: |2-
-      This fellowship award at the University of Washington underscores my expertise in geospatial data analysis, InSAR (Interferometric Synthetic Aperture Radar) techniques, and coding proficiency. My demonstrated skills in harnessing geospatial data and employing advanced remote sensing technologies like InSAR highlight your commitment to advancing knowledge in earth sciences and spatial analysis.
+      This fellowship award at the University of Washington underscores my expertise in geospatial data analysis, InSAR (Interferometric Synthetic Aperture Radar) techniques, and coding proficiency. My demonstrated skills in harnessing geospatial data and employing advanced remote sensing technologies like InSAR and LiDAR highlight my commitment to advancing knowledge in earth sciences and spatial analysis.
       
       <a href="https://laghoyos.github.io/website/uploads/fellowship.pdf" target="_blank" rel="noopener" style="text-decoration: none;" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">
       <svg class="w-3.5 h-3.5 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentcolor" viewBox="0 0 20 20">

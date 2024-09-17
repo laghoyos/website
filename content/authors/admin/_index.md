@@ -76,26 +76,28 @@ work:
   - position: Research Assistant and Scientist
     company_name: University of Washington
     company_url: https://www.ce.washington.edu/
-    company_logo: uw.png
+    company_logo: uw.svg
     date_start: 2023-09-24
     summary: |2-
       Responsibilities include:
       - Investigating the geospatial relationships between earthquake-induced landslides and their reactivations.
-      - Interaction with geospatial data types, both rasters (GeoTIFF) and vectors (GeoJSON, geopackage) and satellite imagery.
+      - Interaction with geospatial data types, both rasters (GeoTIFF and satellite imagery) and vectors (GeoJSON, geopackage, shapefiles).
   - position: Geotechnical Monitoring Analyst
     company_name: Hexagon Geospatial
     company_url: https://hexagon.com/company/divisions/safety-infrastructure-geospatial
-    company_logo: hxgn_logo.png
+    company_logo: hexagon_geospatial_logo.jpeg
     date_start: 2021-07-15
     date_end: 2023-08-31
     summary: |2-
       Responsibilities include:
-      - Analysis and management of InSAR data from ground-based georadars.
-      - Report instable areas to the customer for their decision-making.
+      - InSAR data analysis and management from ground-based georadars.
+      - Real time geotechnical monitoring of pit slopes and tailing dams using ground-based interferometric radars, robotic total stations and GNSS.
+      - Technical support to the customer regarding monitoring, equipment, system, and software
+      - Daily, weekly, and monthly report instable areas to the customer after the analysis for decision-making.
   - position: Geological Engineer
     company_name: South32
     company_url: https://www.south32.net/what-we-do/our-locations/americas/cerro-matoso
-    company_logo: ''
+    company_logo: south32.png
     date_start: 2019-01-24
     date_end: 2021-06-30
     summary: |
@@ -103,6 +105,16 @@ work:
       - Managemement of GIS databases of drilling samples.
       - Drilling samples data entry.
       - Plan, excecute and supervise drillings.
+  - position: Research Assistant and Scientist
+    company_name: Universidad Nacional de Colombia
+    company_url: https://minas.medellin.unal.edu.co/
+    company_logo: unal.jpg
+    date_start: 2019-01-24
+    date_end: 2021-06-30
+    summary: |
+      Responsibilities include:
+      - Research assistant for photointerpretation, geotechnical mapping and statistical modelling validation in the project "Hazard basic studies of landslides, debris flows and floods occurrence for land management at Aburrá Valley, Antioquia, Colombia".
+      - Propose an early warning system for the flash flows occurrence using the RTI methodology.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -196,4 +208,4 @@ awards:
 
 ## About Me
 
-Luis Angel is a Sc.M student in the CEE Department at the University of Washington. Holds a Sc.B degree in Geological Engineering from the Universidad Nacional de Colombia, with 5+ years of industry experience. Passionate about geospatial data, GIS, and remote sensing, he excels in both autonomous and team-based learning environments. With outstanding interpersonal, written, and communication skills, he is adaptable to change and committed to continuous improvement. His creative and innovative mindset is focused on problem-solving, particularly within the realms of geospatial analysis, data engineering, geophysics, geotechnical engineering, and risk management.
+I am a Sc.M student in the CEE Department at the University of Washington. I hold a Sc.B degree in Geological Engineering from the Universidad Nacional de Colombia, with 5+ years of industry experience. Passionate about geospatial data, GIS, and remote sensing, I excel in both autonomous and team-based learning environments. With outstanding interpersonal, written, and communication skills, I am adaptable to change and committed to continuous improvement. My creative and innovative mindset is focused on problem-solving, particularly within the realms of geospatial analysis, data engineering, geophysics, geotechnical engineering, and risk management.

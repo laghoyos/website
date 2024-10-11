@@ -10,7 +10,7 @@
             width: 100%;
         }
 
-        .left-text, .right-text {
+        .left-text, .right-text, .left-text-2, .right-text-2 {
             margin: 0; /* Remove default margin */
         }
 
@@ -19,6 +19,11 @@
             white-space: nowrap; /* Prevent wrapping to keep text on one line */
         }
 
+        .left-text-2 {
+            margin: 3px 0;
+            text-align: left;
+            white-space: nowrap; /* Prevent wrapping to keep text on one line */
+        }
         .right-text {
             text-align: right;
         }
@@ -180,12 +185,24 @@
 <h2 id="education">Education</h2>
 <table class="line-table">
     <tr>
-        <td class="left-text"><p><strong>Master of Science in Civil Engineering</strong><br>
-            University of Washington<br>
-            <em>Expected June 2025</em></p></td>      
-        <td class="right-text-2"><p><strong>Bachelor of Science in Geological Engineering</strong><br>
-            Universidad Nacional de Colombia (UNALMED)<br>
-            <em>May 2019</em></p></td>
+        <td class="left-text">
+            <ul>
+                <li>
+                    <strong>Master of Science in Civil Engineering</strong><br>
+                    University of Washington<br>
+                    <em>Expected June 2025</em>
+                </li>
+            </ul>
+        </td>      
+        <td class="right-text-2">
+            <ul>
+                <li>
+                    <strong>Bachelor of Science in Geological Engineering</strong><br>
+                    Universidad Nacional de Colombia (UNALMED)<br>
+                    <em>May 2019</em>
+                </li>
+            </ul>
+        </td>
     </tr>
 </table>
 <hr>

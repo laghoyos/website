@@ -5,13 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Styled PDF</title>
     <style>
+        
+        .line-table {
+            width: 100%;
+        }
+
+        .left-text, .right-text {
+            margin: 0; /* Remove default margin */
+        }
+
+        .left-text {
+            text-align: left;
+            white-space: nowrap; /* Prevent wrapping to keep text on one line */
+        }
+
+        .right-text {
+            text-align: right;
+        }
+        
+        .right-text-2 {
+            text-align: left;
+        }
 
         body {
             font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
-            font-size: 13pt; /* Base font size */
-            line-height: 1.42; /* Line spacing */
+            font-size: 16.5px; /* Base font size */
+            line-height: 1.05; /* Line spacing */
             text-align: justify;
-            margin: 0.65in;
+            margin: 0.2in;
             color: #0000
         }
 
@@ -27,13 +48,24 @@
 
         h1 {
             letter-spacing: 1; /* Header letter spacing */
-            margin-bottom: 10px; /* Margin below header */
+            margin-bottom: 9px; /* Margin below header */
             color: #0000
         }
 
         h1, h2, h3 {
+            margin: 5px 0;
+            letter-spacing: 0.4; /* Header letter spacing */
+            margin-bottom: 3px; /* Margin below header */
 	        font-weight: normal;
             color: #0000
+        }
+
+        p {
+            margin: 5px 0; /* Reduce the margin above and below paragraphs */
+        }
+
+        ul, li {
+            margin: 3px 0; /* Adjust margin for list items to reduce spacing */
         }
 
         a:link {
@@ -64,85 +96,112 @@
     });
   </script>
 <h1 id="luis-angel-guerrero-hoyos">Luis Angel Guerrero Hoyos</h1>
-<p><a href="https://maps.app.goo.gl/J9NyvbqDtTVuo8ov6"><img src="https://img.icons8.com/?size=100&id=7880&format=png&color=000000" alt="Location Logo" width="20" height="20"></a> 4106 Stone Way N, Seattle WA<br>
-<a href="mailto:laghoyos@uw.edu"><img src="https://img.icons8.com/?size=100&id=53435&format=png&color=000000" alt="Mail Logo" width="20" height="20"></a> laghoyos@uw.edu<br>
-<a href="tel:+12067309007"><img src="https://img.icons8.com/?size=100&id=9659&format=png&color=000000" alt="Phone Logo" width="20" height="20"></a> +1 206-730-9007</p>      
-<div style="text-align: right;">
-	<p><a href="https://laghoyos.github.io/website/"><img src="https://img.icons8.com/?size=100&id=1349&format=png&color=000000" alt="Globe Logo" width="27" height="27"></a>
-	<a href="https://www.linkedin.com/in/luis-angel-guerrero-hoyos-b3166912a/"><img src="https://img.icons8.com/?size=100&id=8808&format=png&color=000000" alt="LinkedIn Logo" width="27" height="27"></a>
-	<a href="https://github.com/laghoyos"><img src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000" alt="GitHub Logo" width="27" height="27"></a></p>
-</div>
+<table class="line-table">
+    <tr>
+        <td class="left-text"><a href="https://maps.app.goo.gl/J9NyvbqDtTVuo8ov6"><img src="https://img.icons8.com/?size=100&id=7880&format=png&color=000000" alt="Location Logo" width="20" height="20"></a> Seattle WA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:laghoyos@uw.edu"><img src="https://img.icons8.com/?size=100&id=53435&format=png&color=000000" alt="Mail Logo" width="20" height="20"></a> laghoyos@uw.edu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:+12067309007"><img src="https://img.icons8.com/?size=100&id=9659&format=png&color=000000" alt="Phone Logo" width="20" height="20"></a> +1 206-730-9007</td>      
+        <td class="right-text"><a href="https://laghoyos.github.io/website/"><img src="https://img.icons8.com/?size=100&id=1349&format=png&color=000000" alt="Globe Logo" width="27" height="27"></a><a href="https://www.linkedin.com/in/luis-angel-guerrero-hoyos-b3166912a/"><img src="https://img.icons8.com/?size=100&id=8808&format=png&color=000000" alt="LinkedIn Logo" width="27" height="27"></a><a href="https://github.com/laghoyos"><img src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000" alt="GitHub Logo" width="27" height="27"></a></p></td>
+    </tr>
+</table>
+
 <hr>
 <h2 id="about-me">About Me</h2>
-<p>I am a Sc.M student in the CEE Department at the University of Washington. I hold a Sc.B degree in Geological Engineering from the Universidad Nacional de Colombia, with 5+ years of industry experience. Passionate about geospatial data, GIS, and remote sensing, I excel in both autonomous and team-based learning environments. With outstanding interpersonal, written, and communication skills, I am adaptable to change and committed to continuous improvement. My creative and innovative mindset is focused on problem-solving, particularly within the realms of geospatial analysis, data engineering, geophysics, geotechnical engineering, and risk management.  In addition to my academic and professional pursuits, I have a love for football, both as a player and a fan.</p>
+<p>I am a Sc.M student in the CEE Department at the University of Washington. I hold a Sc.B degree in Geological Engineering from the Universidad Nacional de Colombia, with 5+ years of industry experience. Passionate about geospatial data, GIS, remote sensing and geotechnical engineering, I excel in both autonomous and team-based learning environments. With outstanding interpersonal, written, and communication skills, I am adaptable to change and committed to continuous improvement. My creative and innovative mindset is focused on problem-solving, particularly within the realms of geospatial analysis, data engineering, geophysics, geotechnical engineering, and risk management.  In addition to my academic and professional pursuits, I have a love for football, both as a player and a fan.</p>
+<hr>
+<h2 id="education">Education</h2>
+<table class="line-table">
+    <tr>
+        <td class="left-text"><p><strong>Master of Science in Civil Engineering</strong><br>
+            University of Washington<br>
+            <em>Expected June 2025</em></p></td>      
+        <td class="right-text-2"><p><strong>Bachelor of Science in Geological Engineering</strong><br>
+            Universidad Nacional de Colombia (UNALMED)<br>
+            <em>May 2019</em></p></td>
+    </tr>
+</table>
 <hr>
 <h2 id="experience">Experience</h2>
-<h3 id="university-of-washington"><a href="https://www.ce.washington.edu/"><img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Washington_Huskies_logo.svg" alt="UW Logo" width="25" height="20"></a> University of Washington</h3>
-<p><strong>Research Assistant and Scientist</strong><br>
-<em>August 2023 - Present</em></p>
+<table class="line-table">
+    <tr>
+        <td class="left-text"><h3><strong>Research Assistant and Scientist</strong> <em>(August 2023 - Present)</em></h3></td>    
+        <td class="right-text"><h3 id="university-of-washington"><a href="https://www.ce.washington.edu/"><img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Washington_Huskies_logo.svg" alt="UW Logo" width="25" height="20"></a> University of Washington</h3>
+        </td>
+    </tr>
+</table>
 <ul>
 <li>Investigating the geospatial relationships between earthquake-induced landslides and their reactivations.</li>
 <li>Interaction with geospatial data types, both rasters (GeoTIFF and satellite imagery) and vectors (GeoJSON, geopackage, shapefiles).</li>
 </ul>
-<h3 id="terracon"><a href="https://www.terracon.com/"><img src="terracon.jpeg" alt="Terracon Logo" width="20" height="20"></a> Terracon Consultants Inc</h3>
-<p><strong>Geotechnical Intern</strong><br>
-<em>June 2024 - September 2024</em></p>
+
+<table class="line-table">
+    <tr>
+        <td class="left-text"><h3><strong>Geotechnical Intern</strong> <em>(June 2024 - September 2024)</em></h3></td>      
+        <td class="right-text"><h3 id="terracon"><a href="https://www.terracon.com/"><img src="terracon.jpeg" alt="Terracon Logo" width="20" height="20"></a> Terracon Consultants Inc</h3></td>
+    </tr>
+</table>
 <ul>
-<li>Site reconnaissance, project scoping, budgeting, logging, geotechnical report preparation.</li>
-<li>Geotechnical software: gINT, GeoStudio, Rocscience, Site response and liquefaction analysis (cLiq, LiqSVs), Plaxis.</li>
+<li>Site reconnaissance and investigations, project scoping, budgeting, logging, geotechnical proposals and report preparation.</li>
+<li>Geotechnical earthquake analysis: site response and liquefaction.</li>
 </ul>
-<h3 id="hexagon-geospatial"><a href="https://hexagon.com/products/product-groups/monitoring-solutions/monitoring-radar"><img src="hexagon_geospatial_logo.jpeg" alt="Hexagon Logo" width="25" height="25"></a> Hexagon Geospatial</h3>
-<p><strong>Geotechnical Monitoring Analyst</strong><br>
-<em>July 2021 - August 2023</em></p>
+
+<table class="line-table">
+    <tr>
+        <td class="left-text"><h3><strong>Geotechnical Monitoring Analyst</strong> <em>(July 2021 - August 2023)</em></h3></td>      
+        <td class="right-text"><h3 id="hexagon-geospatial"><a href="https://hexagon.com/products/product-groups/monitoring-solutions/monitoring-radar"><img src="hexagon_geospatial_logo.jpeg" alt="Hexagon Logo" width="25" height="25"></a> Hexagon Geospatial</h3></td>
+    </tr>
+</table>
 <ul>
 <li>InSAR data analysis and management from ground-based georadars.</li>
 <li>Real time geotechnical monitoring of pit slopes and tailing dams using ground-based interferometric radars, robotic total stations and GNSS.</li>
 <li>Technical support to the customer regarding monitoring, equipment, system, and software.</li>
 <li>Daily, weekly, and monthly report instable areas to the customer after the analysis for decision-making.</li>
 </ul>
-<h3 id="south32"><a href="https://www.south32.net/what-we-do/our-locations/americas/cerro-matoso"><img src="south32.png" alt="South32 Logo" width="20" height="20"></a> South32</h3>
-<p><strong>Geological Engineer</strong><br>
-<em>January 2019 - July 2021</em></p>
+
+<table class="line-table">
+    <tr>
+        <td class="left-text"><h3><strong>Geological Engineer</strong> <em>(January 2019 - July 2021)</em></h3></td>      
+        <td class="right-text"><h3 id="south32"><a href="https://www.south32.net/what-we-do/our-locations/americas/cerro-matoso"><img src="south32.png" alt="South32 Logo" width="20" height="20"></a> South32</h3></td>
+    </tr>
+</table>
 <ul>
-<li>Managemement of GIS databases of drilling samples.</li>
-<li>Drilling samples data entry.</li>
+<li>Managemement of GIS databases of drilling samples and data entry.</li>
 <li>Plan, excecute and supervise drilling campaigns.</li>
 </ul>
-<h3 id="un"><a href="https://minas.medellin.unal.edu.co/"><img src="unal.jpg" alt="UN Logo" width="22" height="22"></a> Universiad Nacional de Colombia</h3>
-<p><strong>Research Assistant and Scientist</strong><br>
-<em>August 2017 - March 2018</em></p>
+
+<table class="line-table">
+    <tr>
+        <td class="left-text"><h3><strong>Research Assistant and Scientist</strong> <em>(August 2017 - March 2018)</em></h3></td>      
+        <td class="right-text"><h3 id="un"><a href="https://minas.medellin.unal.edu.co/"><img src="unal.jpg" alt="UN Logo" width="22" height="22"></a> UNALMED</h3></td>
+    </tr>
+</table>
 <ul>
 <li>Research assistant for photointerpretation, geotechnical mapping and statistical modelling validation in the project "Hazard basic studies of landslides, debris flows and floods occurrence for land management at Aburrá Valley, Antioquia, Colombia".</li>
 <li>Propose an early warning system for the flash flows occurrence using the RTI methodology.</li>
 </ul>
 <hr>
-<h2 id="education">Education</h2>
-<p><strong>Master of Science in Civil Engineering</strong><br>
-University of Washington<br>
-<em>May 2025</em></p>
-<p><strong>Bachelor of Science in Geological Engineering</strong><br>
-Universidad Nacional de Colombia<br>
-<em>May 2019</em></p>
-<hr>
 <h2 id="skills">Skills</h2>
 <ul>
+<li><strong>Geotechnical software:</strong> Slide, Plaxis, gINT, Cliq, LiqSVs, Deepsoil, ProShake</li>
+<li><strong>Tools:</strong> Git, QGIS, ArcGIS, InSAR, Pix4D, CloudCompare</li>
 <li><strong>Programming Languages:</strong> Python, Matlab</li>
 <li><strong>Frameworks &amp; Libraries:</strong> Geopandas, Rasterio, Xarray, Gdal</li>
-<li><strong>Tools:</strong> Git, QGIS, ArcGIS, InSAR, Pix4D, CloudCompare,</li>
 <li><strong>Databases:</strong> SQL, PowerBI</li>
 <li><strong>Soft Skills:</strong> Communication, Leadership, Adaptability, Innovation</li>
 </ul>
 <hr>
 <h2 id="certifications">Awards & Certifications</h2>
 <ul>
+<li>InSAR Processing and Analysis (ISCE+) - EarthScope Consortium & NSF, August 2024</li>
 <li>CEE Departmental Graduate Fellowship - University of Washington, September 2023</li>
 <li>InSAR and RAR Radar Monitoring - University of Arizona, December 2020</li>
 </ul>
 <h2 id="languages">Languages</h2>
 <ul>
-<li>English (Fluent)</li>
-<li>Spanish (Native)</li>
+    <table class="line-table">
+        <tr>
+            <td class="left-text"><li>English (Fluent)</li></td>      
+            <td class="right-text-2"><li>Spanish (Native)</li></td>
+        </tr>
+    </table>
 </ul>
-
 </body>
 </html>

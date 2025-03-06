@@ -58,6 +58,10 @@ jobs:
       with:
         name: github-pages
         path: ./public
+        if-no-files-found: error
+        retention-days: 7
+        exclude: |
+          **/*.symlink
 
   # Deploy website to GitHub Pages hosting
   deploy:

@@ -4,13 +4,10 @@ env:
   WC_HUGO_VERSION: '0.126.3'
 
 on:
-  # Trigger the workflow every time you push to the `main` branch
   push:
     branches: ["main"]
-  # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
 
-# Provide permission to clone the repo and deploy it to GitHub Pages
 permissions:
   contents: read
   pages: write
@@ -21,7 +18,6 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build website
   build:
     if: github.repository_owner != 'HugoBlox'
     runs-on: ubuntu-latest
@@ -29,30 +25,43 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       with:
-          # Fetch history for Hugo's .GitInfo and .Lastmod
         fetch-depth: 0
+
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: ${{ env.WC_HUGO_VERSION }}
+        hugo-version: '0.126.3'
         extended: true
+
     - uses: actions/cache@v3
       with:
         path: /tmp/hugo_cache_runner/
         key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
         restore-keys: |
           ${{ runner.os }}-hugomod-
+
     - name: Setup Pages
       id: pages
       uses: actions/configure-pages@v3
+
     - name: Build with Hugo
       env:
         HUGO_ENVIRONMENT: production
       run: |
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-        hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+
     - name: Generate Pagefind search index
       run: npx pagefind --site "public"
+
+    - name: Remove symlinks and large files before upload
+      run: |
+        find ./public -type l -delete
+        find ./public -type f -size +100M -delete
+
+    - name: Verify artifact size
+      run: du -sh ./public
+
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
@@ -60,10 +69,7 @@ jobs:
         path: ./public
         if-no-files-found: error
         retention-days: 7
-        exclude: |
-          **/*.symlink
 
-  # Deploy website to GitHub Pages hosting
   deploy:
     if: github.repository_owner != 'HugoBlox'
     environment:

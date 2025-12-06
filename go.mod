@@ -1,4 +1,4 @@
-module github.com/HugoBlox/hugo-blox-builder/starters/academic-cv
+module github.com/laghoyos/website
 
 go 1.20
 

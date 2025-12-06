@@ -73,48 +73,50 @@ education:
       - Remote Sensing 
       - Geographic Information Systems (GIS)
 work:
+  - position: Staff Engineer
+    company_name: Shannon and Wilson Inc
+    company_url: https://www.shannonwilson.com/
+    company_logo: sw.jpg
+    date_start: 2025-07-01
+    summary: |-
+      Responsibilities include:
+      - Contribute to the development of research tools for LiDAR change detection using ICP registration and M3C2 algorithms, and InSAR using Dolphin and PyGMTSAR, aimed at enhancing business opportunities in remote sensing.
   - position: Research Assistant and Scientist
     company_name: University of Washington
     company_url: https://www.ce.washington.edu/
     company_logo: uw.svg
-    date_start: 2023-09-24
+    date_start: 2023-08-01
+    date_end: 2025-06-30
     summary: |-
       Responsibilities include:
-      - Investigating the geospatial relationships between earthquake-induced landslides and their reactivations.
-      - Interaction with geospatial data types, both rasters (GeoTIFF and satellite imagery) and vectors (GeoJSON, geopackage, shapefiles).
-  - position: Geotechnical Monitoring Analyst
+      - Investigate the geospatial relationships between earthquake-induced landslides and their reactivations, manipulating geospatial data types, both rasters (GeoTIFF: satellite imagery and lidar) and vectors (GeoJSON, geopackage, shapefile).
+  - position: Monitoring Analyst
     company_name: Hexagon Geospatial
-    company_url: https://hexagon.com/company/divisions/safety-infrastructure-geospatial
+    company_url: https://hexagon.com/products/product-groups/monitoring-solutions/monitoring-radar
     company_logo: hexagon_geospatial_logo.jpeg
-    date_start: 2021-07-15
+    date_start: 2021-07-01
     date_end: 2023-08-31
     summary: |-
       Responsibilities include:
-      - InSAR data analysis and management from ground-based georadars.
-      - Real time geotechnical monitoring of pit slopes and tailing dams using ground-based interferometric radars, robotic total stations and GNSS.
-      - Technical support to the customer regarding monitoring, equipment, system, and software
-      - Daily, weekly, and monthly report instable areas to the customer after the analysis for decision-making.
+      - Perform InSAR and geospatial data analysis and real-time geotechnical monitoring of pit slopes and tailing dams using ground-based interferometric radars, robotic total stations, and GNSS, while providing technical support and delivering daily, weekly, and monthly reports on unstable areas for decision-making.
   - position: Geological Engineer
     company_name: South32
     company_url: https://www.south32.net/what-we-do/our-locations/americas/cerro-matoso
     company_logo: south32.png
-    date_start: 2019-01-24
-    date_end: 2021-06-30
+    date_start: 2019-01-01
+    date_end: 2021-07-31
     summary: |
       Responsibilities include:
-      - Managemement of GIS databases of drilling samples.
-      - Drilling samples data entry.
-      - Plan, excecute and supervise drillings.
+      - Manage and perform data entry of GIS databases for mineral resource estimation and decision-making, while planning and supervising drilling campaigns.
   - position: Research Assistant and Scientist
     company_name: Universidad Nacional de Colombia
     company_url: https://minas.medellin.unal.edu.co/
     company_logo: unal.jpg
-    date_start: 2019-01-24
-    date_end: 2021-06-30
+    date_start: 2017-08-01
+    date_end: 2018-03-31
     summary: |
       Responsibilities include:
-      - Research assistant for photointerpretation, geotechnical mapping and statistical modelling validation in the project "Hazard basic studies of landslides, debris flows and floods occurrence for land management at Aburrá Valley, Antioquia, Colombia".
-      - Propose an early warning system for the flash flows occurrence using the RTI methodology.
+      - Conduct photointerpretation, geotechnical mapping, and statistical modeling validation for landslide, debris flow, and flood hazard studies in Aburrá Valley, while proposing an early warning system for flash flows using RTI methodology.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -208,4 +210,4 @@ awards:
 
 ## About Me
 
-I am a Sc.M student in the CEE Department at the University of Washington. I hold a Sc.B degree in Geological Engineering from the Universidad Nacional de Colombia, with 5+ years of industry experience. Passionate about geospatial data, GIS, and remote sensing, I excel in both autonomous and team-based learning environments. With outstanding interpersonal, written, and communication skills, I am adaptable to change and committed to continuous improvement. My creative and innovative mindset is focused on problem-solving, particularly within the realms of geospatial analysis, data engineering, geophysics, geotechnical engineering, and risk management. In addition to my academic and professional pursuits, I have a love for football, both as a player and a fan.
+I am a Civil-Geological Engineer with 5+ years of experience in geospatial data, GIS and remote sensing. I hold a MSc degree in Civil Engineering from the University of Washington and a BSc degree in Geological Engineering from the Universidad Nacional de Colombia. I excel in both autonomous and team-based learning environments; with outstanding interpersonal, written, and communication skills. I am adaptable to change and committed to continuous improvement. My creative and innovative mindset is focused on problem-solving, particularly within the realms of geospatial data analysis and management. In addition to my academic and professional pursuits, I have a love for football, both as a player and a fan.

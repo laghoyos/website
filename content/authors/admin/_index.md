@@ -49,7 +49,7 @@ education:
     institution: University of Washington
     date_start: 2023-09-27
     date_end: 2025-05-31
-    summary: |2-
+    summary: |-
       GPA: 3.86/4.0
       
       Courses included:
@@ -65,7 +65,7 @@ education:
     institution: Universidad Nacional de Colombia
     date_start: 2013-02-04
     date_end: 2018-12-31
-    summary: |2-
+    summary: |-
       GPA: 4.2/5
       
       Courses included:
@@ -78,7 +78,7 @@ work:
     company_url: https://www.ce.washington.edu/
     company_logo: uw.svg
     date_start: 2023-09-24
-    summary: |2-
+    summary: |-
       Responsibilities include:
       - Investigating the geospatial relationships between earthquake-induced landslides and their reactivations.
       - Interaction with geospatial data types, both rasters (GeoTIFF and satellite imagery) and vectors (GeoJSON, geopackage, shapefiles).
@@ -88,7 +88,7 @@ work:
     company_logo: hexagon_geospatial_logo.jpeg
     date_start: 2021-07-15
     date_end: 2023-08-31
-    summary: |2-
+    summary: |-
       Responsibilities include:
       - InSAR data analysis and management from ground-based georadars.
       - Real time geotechnical monitoring of pit slopes and tailing dams using ground-based interferometric radars, robotic total stations and GNSS.
@@ -174,7 +174,7 @@ awards:
     date: '2023-08-01'
     awarder: University of Washington
     # icon: custom/uw
-    summary: |2-
+    summary: |-
       This fellowship award at the University of Washington underscores my expertise in geospatial data analysis, InSAR (Interferometric Synthetic Aperture Radar) techniques, and coding proficiency. My demonstrated skills in harnessing geospatial data and employing advanced remote sensing technologies like InSAR and LiDAR highlight my commitment to advancing knowledge in earth sciences and spatial analysis.
       
       <a href="https://laghoyos.github.io/website/uploads/fellowship.pdf" target="_blank" rel="noopener" style="text-decoration: none;" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">
@@ -189,7 +189,7 @@ awards:
     date: '2020-12-01'
     awarder: University of Arizona
     # icon: /assets/media/icons/custom/arizona.svg
-    summary: |2-
+    summary: |-
       Learned:
         - Ground-based Synthetic Aperture Radar (SAR).
         - Ground-based Real Aperture Radar (RAR) • Satellite-based InSAR.

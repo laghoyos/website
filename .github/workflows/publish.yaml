@@ -1,7 +1,4 @@
-name: Deploy website to GitHub Pages
-
-env:
-  WC_HUGO_VERSION: '0.126.3'
+name: Deploy Hugo site to Pages
 
 on:
   push:
@@ -19,65 +16,39 @@ concurrency:
 
 jobs:
   build:
-    if: github.repository_owner != 'HugoBlox'
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
 
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v3
-      with:
-        hugo-version: '0.126.3'
-        extended: true
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
 
-    - uses: actions/cache@v4
-      with:
-        path: /tmp/hugo_cache_runner/
-        key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
-        restore-keys: |
-          ${{ runner.os }}-hugomod-
+      - name: Build
+        run: hugo --minify
 
-    - name: Setup Pages
-      id: pages
-      uses: actions/configure-pages@v4
+      - name: Remove symlinks from public directory
+        run: |
+          find ./public -type l -delete
 
-    - name: Build with Hugo
-      env:
-        HUGO_ENVIRONMENT: production
-      run: |
-        echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-        hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-
-    - name: Generate Pagefind search index
-      run: npx pagefind --site "public"
-
-    - name: Remove symlinks and large files before upload
-      run: |
-        find ./public -type l -delete
-        find ./public -type f -size +100M -delete
-
-    - name: Verify artifact size
-      run: du -sh ./public
-
-    - name: Upload artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: github-pages
-        path: ./public
-        if-no-files-found: error
-        retention-days: 7
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
 
   deploy:
-    if: github.repository_owner != 'HugoBlox'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v4
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

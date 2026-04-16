@@ -1,1 +1,3 @@
-wkhtmltopdf --enable-local-file-access --page-size Letter resume.html resume.pdf
+wkhtmltopdf --enable-local-file-access --page-size Letter `
+    -T 5 -B 0 -L 0 -R 0 `
+    resume_geospatial.html resume_geospatial.pdf

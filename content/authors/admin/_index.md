@@ -20,12 +20,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Remote Sensing & Geospatial Data Engineer
+role: Civil-Geological Engineer | GIS & Remote Sensing
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: UW
-    url: https://www.ce.washington.edu/
+  - name: Shannon and Wilson Inc
+    url: https://www.shannonwilson.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -39,10 +39,10 @@ profiles:
     url: https://www.linkedin.com/in/luis-angel-guerrero-hoyos-b3166912a/
 
 interests:
-  - Remote sensing
-  - Geospatial data
-  - Data analysis
-  - Coding
+  - Remote sensing (LiDAR, InSAR)
+  - Geospatial automation
+  - Geotechnical engineering
+  - Web app development
 
 education:
   - area: MSc Civil Engineering
@@ -80,7 +80,16 @@ work:
     date_start: 2025-07-01
     summary: |-
       Responsibilities include:
-      - Contribute to the development of research tools for LiDAR change detection using ICP registration and M3C2 algorithms, and InSAR using Dolphin and PyGMTSAR, aimed at enhancing business opportunities in remote sensing.
+      - Lead development of SWLC3D, the firm's LiDAR-based change-detection pipeline (ICP registration + M3C2 analysis) using PDAL, CloudCompare, and arcpy, producing displacement-vector shapefiles and map-series deliverables for infrastructure and dam-monitoring programs.
+      - Develop InSAR displacement-monitoring tools using Dolphin and PyGMTSAR, expanding the firm's remote-sensing service line.
+      - Build browser-based engineering web applications (VIKTOR), including a seismic-displacement calculator and an in-app documentation viewer.
+      - Contribute to traditional geotechnical practice: boring logs, site investigation, and construction observation.
+  - position: Owner & Coach
+    company_name: Drizzle Ballers
+    company_url: https://laghoyos.github.io/drizzle-ballers
+    date_start: 2025-01-01
+    summary: |-
+      Founded and run a Seattle youth soccer coaching business; built and maintain the business website.
   - position: Research Assistant and Scientist
     company_name: University of Washington
     company_url: https://www.ce.washington.edu/
@@ -89,7 +98,18 @@ work:
     date_end: 2025-06-30
     summary: |-
       Responsibilities include:
-      - Investigate the geospatial relationships between earthquake-induced landslides and their reactivations, manipulating geospatial data types, both rasters (GeoTIFF: satellite imagery and lidar) and vectors (GeoJSON, geopackage, shapefile).
+      - Investigate the geospatial relationships between earthquake-induced landslides and their reactivations, manipulating geospatial data types, including satellite imagery (Sentinel-1 SAR), rasters (GeoTIFF, lidar), and vectors (GeoJSON, geopackage, shapefile).
+      - Completed InSAR Processing and Analysis (ISCE+) training through EarthScope Consortium & NSF.
+  - position: Geotechnical Intern
+    company_name: Terracon Consultants Inc
+    company_url: https://www.terracon.com/
+    company_logo: terracon.jpeg
+    date_start: 2024-06-01
+    date_end: 2024-09-30
+    summary: |-
+      Responsibilities include:
+      - Site reconnaissance and investigations, project scoping, budgeting, logging, geotechnical proposals and report preparation.
+      - Geotechnical earthquake analysis: site response and liquefaction.
   - position: Monitoring Analyst
     company_name: Hexagon Geospatial
     company_url: https://hexagon.com/products/product-groups/monitoring-solutions/monitoring-radar
@@ -123,6 +143,10 @@ work:
 skills:
   - name: Technical Skills
     items:
+      - name: GIS & Remote Sensing
+        description: 'ArcGIS Pro, QGIS, InSAR, LiDAR'
+        percent: 95
+        icon: custom/data
       - name: Python
         description: ''
         percent: 90
@@ -204,10 +228,15 @@ awards:
       </svg> 
       See Certificate
       </a>
+  - title: InSAR Processing and Analysis (ISCE+)
+    date: '2024-08-01'
+    awarder: EarthScope Consortium & NSF
+    summary: |-
+      Training in InSAR processing and analysis using ISCE+, covering satellite SAR data preparation and displacement time-series analysis.
 
 
 ---
 
 ## About Me
 
-I am a Civil-Geological Engineer with 5+ years of experience in geospatial data, GIS and remote sensing. I hold a MSc degree in Civil Engineering from the University of Washington and a BSc degree in Geological Engineering from the Universidad Nacional de Colombia. I excel in both autonomous and team-based learning environments; with outstanding interpersonal, written, and communication skills. I am adaptable to change and committed to continuous improvement. My creative and innovative mindset is focused on problem-solving, particularly within the realms of geospatial data analysis and management. In addition to my academic and professional pursuits, I have a love for football, both as a player and a fan.
+I am a Civil-Geological Engineer with 7+ years of experience combining traditional geotechnical practice — field explorations, laboratory testing, report preparation, and construction observation — with a specialized remote-sensing and geospatial-automation skill set, building production Python tooling for LiDAR change detection, GIS deliverables, and engineering web applications. I hold a MSc degree in Civil Engineering (Geotechnical) from the University of Washington and a BSc degree in Geological Engineering from the Universidad Nacional de Colombia, and am currently pursuing PE licensure. I excel in both autonomous and team-based learning environments; with outstanding interpersonal, written, and communication skills. I am adaptable to change and committed to continuous improvement. My creative and innovative mindset is focused on problem-solving, particularly within the realms of geospatial analysis, data engineering, geophysics, geotechnical engineering, and risk management. In addition to my academic and professional pursuits, I have a love for football, both as a player and a fan.

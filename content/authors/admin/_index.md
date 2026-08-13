@@ -80,7 +80,8 @@ work:
     date_start: 2025-07-01
     summary: |-
       Responsibilities include:
-      - Lead development of SWLC3D, the firm's LiDAR-based change-detection pipeline (ICP registration + M3C2 analysis) using PDAL, CloudCompare, and arcpy, producing displacement-vector shapefiles and map-series deliverables for infrastructure and dam-monitoring programs.
+      - Lead development of SWLC3D, the firm's LiDAR-based change-detection pipeline (ICP registration + M3C2 analysis) using PDAL, CloudCompare, and arcpy, producing displacement-vector shapefiles and map-series deliverables for infrastructure and dam-monitoring programs; evaluated UAV LiDAR sensors (RIEGL miniVUX, YellowScan Venturer/Voyager, ROCK Ultra) for change detection over vegetated terrain.
+      - Develop cartographic products, standardized map templates, and Python geoprocessing automation (raster sampling, cross-section map-series export) in ArcGIS Pro, managing enterprise geodatabases and layer files across multi-site engineering programs (97 layers across 10 sites for one program).
       - Develop InSAR displacement-monitoring tools using Dolphin and PyGMTSAR, expanding the firm's remote-sensing service line.
       - Build browser-based engineering web applications (VIKTOR), including a seismic-displacement calculator and an in-app documentation viewer.
       - Contribute to traditional geotechnical practice: boring logs, site investigation, and construction observation.
@@ -98,7 +99,7 @@ work:
     date_end: 2025-06-30
     summary: |-
       Responsibilities include:
-      - Investigate the geospatial relationships between earthquake-induced landslides and their reactivations, manipulating geospatial data types, including satellite imagery (Sentinel-1 SAR), rasters (GeoTIFF, lidar), and vectors (GeoJSON, geopackage, shapefile).
+      - Investigate the geospatial relationships between earthquake-induced landslides and their reactivations, building Python geoprocessing workflows (GeoPandas, Rasterio, GDAL) over satellite imagery (Sentinel-1 SAR), rasters (GeoTIFF, lidar), and vectors (GeoJSON, geopackage, shapefile).
       - Completed InSAR Processing and Analysis (ISCE+) training through EarthScope Consortium & NSF.
   - position: Geotechnical Intern
     company_name: Terracon Consultants Inc
@@ -144,7 +145,7 @@ skills:
   - name: Technical Skills
     items:
       - name: GIS & Remote Sensing
-        description: 'ArcGIS Pro, QGIS, InSAR, LiDAR'
+        description: 'QGIS, ArcGIS Pro, LiDAR, InSAR'
         percent: 95
         icon: custom/data
       - name: Python

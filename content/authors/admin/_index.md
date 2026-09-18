@@ -40,9 +40,9 @@ profiles:
 
 interests:
   - Remote sensing (LiDAR, InSAR)
-  - Geospatial automation
+  - GIS application & ETL automation
   - Geotechnical engineering
-  - Web app development
+  - AI-assisted engineering tooling
 
 education:
   - area: MSc Civil Engineering
@@ -240,4 +240,4 @@ awards:
 
 ## About Me
 
-I am a Civil-Geological Engineer with 7+ years of experience combining traditional geotechnical practice — field explorations, laboratory testing, report preparation, and construction observation — with a specialized remote-sensing and geospatial-automation skill set, building production Python tooling for LiDAR change detection, GIS deliverables, and engineering web applications. I hold a MSc degree in Civil Engineering (Geotechnical) from the University of Washington and a BSc degree in Geological Engineering from the Universidad Nacional de Colombia, and am currently pursuing PE licensure. I excel in both autonomous and team-based learning environments; with outstanding interpersonal, written, and communication skills. I am adaptable to change and committed to continuous improvement. My creative and innovative mindset is focused on problem-solving, particularly within the realms of geospatial analysis, data engineering, geophysics, geotechnical engineering, and risk management. In addition to my academic and professional pursuits, I have a love for football, both as a player and a fan.
+I am a Civil-Geological Engineer with 7+ years of experience combining traditional geotechnical practice — field explorations, laboratory testing, report preparation, and construction observation — with a specialized GIS and geospatial-automation skill set: building ArcGIS Pro applications, Python/arcpy ETL pipelines, and LiDAR change-detection tooling as GIS project lead across multiple concurrent client accounts, increasingly accelerated with AI-assisted development (Anthropic Claude, Claude Code). I hold a MSc degree in Civil Engineering (Geotechnical) from the University of Washington and a BSc degree in Geological Engineering from the Universidad Nacional de Colombia, and am currently pursuing PE licensure. I excel in both autonomous and team-based learning environments; with outstanding interpersonal, written, and communication skills. I am adaptable to change and committed to continuous improvement. My creative and innovative mindset is focused on problem-solving, particularly within the realms of geospatial analysis, data engineering, geophysics, geotechnical engineering, and risk management. In addition to my academic and professional pursuits, I have a love for football, both as a player and a fan.

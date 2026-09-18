@@ -41,8 +41,8 @@ profiles:
 interests:
   - GIS application development (ArcGIS Pro, arcpy)
   - Remote sensing (LiDAR, InSAR)
+  - Geoprocessing & ETL automation
   - AI-assisted engineering tooling
-  - Geotechnical engineering
 
 education:
   - area: MSc Civil Engineering
@@ -84,7 +84,6 @@ work:
       - Lead development of SWLC3D, a Python/arcpy LiDAR change-detection pipeline (PDAL, CloudCompare, ICP registration + M3C2 analysis) with automated QA validation, producing displacement-vector shapefiles and map-series deliverables for infrastructure and dam-monitoring programs; evaluated UAV LiDAR sensors (RIEGL miniVUX, YellowScan Venturer/Voyager, ROCK Ultra) for change detection over vegetated terrain.
       - Build Python/arcpy ETL automation (raster sampling, cross-section map-series export) and InSAR displacement-monitoring tools (Dolphin, PyGMTSAR), expanding the firm's remote-sensing service line.
       - Build browser-based engineering web applications (VIKTOR), including a seismic-displacement calculator and an in-app documentation viewer, and use Anthropic Claude/Claude Code to accelerate GIS tooling, documentation, and reporting automation.
-      - Contribute to traditional geotechnical practice: boring logs, site investigation, and construction observation.
   - position: Owner & Coach
     company_name: Drizzle Ballers
     company_url: https://laghoyos.github.io/drizzle-ballers
@@ -109,8 +108,8 @@ work:
     date_end: 2024-09-30
     summary: |-
       Responsibilities include:
-      - Site reconnaissance and investigations, project scoping, budgeting, logging, geotechnical proposals and report preparation.
-      - Geotechnical earthquake analysis: site response and liquefaction.
+      - Site reconnaissance and investigations, project scoping, budgeting, logging, technical proposals and report preparation.
+      - Earthquake site-response and liquefaction analysis.
   - position: Monitoring Analyst
     company_name: Hexagon Geospatial
     company_url: https://hexagon.com/products/product-groups/monitoring-solutions/monitoring-radar
@@ -119,7 +118,7 @@ work:
     date_end: 2023-08-31
     summary: |-
       Responsibilities include:
-      - Perform InSAR and geospatial data analysis and real-time geotechnical monitoring of pit slopes and tailing dams using ground-based interferometric radars, robotic total stations, and GNSS, while providing technical support and delivering daily, weekly, and monthly reports on unstable areas for decision-making.
+      - Perform InSAR and geospatial data analysis and real-time geospatial monitoring of pit slopes and tailing dams using ground-based interferometric radars, robotic total stations, and GNSS, while providing technical support and delivering daily, weekly, and monthly reports on unstable areas for decision-making.
   - position: Geological Engineer
     company_name: South32
     company_url: https://www.south32.net/what-we-do/our-locations/americas/cerro-matoso
@@ -137,7 +136,7 @@ work:
     date_end: 2018-03-31
     summary: |
       Responsibilities include:
-      - Conduct photointerpretation, geotechnical mapping, and statistical modeling validation for landslide, debris flow, and flood hazard studies in Aburrá Valley, while proposing an early warning system for flash flows using RTI methodology.
+      - Conduct photointerpretation, hazard mapping, and statistical modeling validation for landslide, debris flow, and flood hazard studies in Aburrá Valley, while proposing an early warning system for flash flows using RTI methodology.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -240,4 +239,4 @@ awards:
 
 ## About Me
 
-I am a GIS Analyst and Civil-Geological Engineer with 7+ years of experience building ArcGIS Pro applications, Python/arcpy geoprocessing and ETL automation, and LiDAR change-detection tooling as GIS project lead across multiple concurrent client accounts — paired with a background in traditional geotechnical practice: field explorations, laboratory testing, report preparation, and construction observation. I increasingly rely on AI-assisted development (Anthropic Claude, Claude Code) to accelerate GIS tooling and documentation. I hold a MSc degree in Civil Engineering (Geotechnical) from the University of Washington and a BSc degree in Geological Engineering from the Universidad Nacional de Colombia, and am currently pursuing PE licensure. I excel in both autonomous and team-based learning environments, with outstanding interpersonal, written, and communication skills, and a creative, problem-solving mindset focused on geospatial analysis, data engineering, geotechnical engineering, and risk management. In addition to my academic and professional pursuits, I have a love for football, both as a player and a fan.
+I am a GIS Analyst with 7+ years of experience building ArcGIS Pro applications, Python/arcpy geoprocessing and ETL automation, and LiDAR/InSAR remote-sensing tooling as GIS project lead across multiple concurrent client accounts. I increasingly rely on AI-assisted development (Anthropic Claude, Claude Code) to accelerate GIS tooling and documentation. I hold a MSc degree in Civil Engineering from the University of Washington and a BSc degree in Geological Engineering from the Universidad Nacional de Colombia, and am currently pursuing PE licensure. I excel in both autonomous and team-based learning environments, with outstanding interpersonal, written, and communication skills, and a creative, problem-solving mindset focused on geospatial analysis, remote sensing, and data engineering. In addition to my academic and professional pursuits, I have a love for football, both as a player and a fan.

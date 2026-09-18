@@ -81,9 +81,9 @@ work:
     summary: |-
       Responsibilities include:
       - Lead development of SWLC3D, the firm's LiDAR-based change-detection pipeline (ICP registration + M3C2 analysis) using PDAL, CloudCompare, and arcpy, producing displacement-vector shapefiles and map-series deliverables for infrastructure and dam-monitoring programs; evaluated UAV LiDAR sensors (RIEGL miniVUX, YellowScan Venturer/Voyager, ROCK Ultra) for change detection over vegetated terrain.
-      - Develop cartographic products, standardized map templates, and Python geoprocessing automation (raster sampling, cross-section map-series export) in ArcGIS Pro, managing enterprise geodatabases and layer files across multi-site engineering programs (97 layers across 10 sites for one program).
+      - Act as GIS project lead across multiple concurrent client accounts, gathering stakeholder requirements and translating them into cartographic products, standardized map templates, and Python/arcpy ETL automation (raster sampling, cross-section map-series export), managing enterprise geodatabases and layer files across multi-site programs (97 layers across 10 sites for one program).
       - Develop InSAR displacement-monitoring tools using Dolphin and PyGMTSAR, expanding the firm's remote-sensing service line.
-      - Build browser-based engineering web applications (VIKTOR), including a seismic-displacement calculator and an in-app documentation viewer.
+      - Build browser-based engineering web applications (VIKTOR), including a seismic-displacement calculator and an in-app documentation viewer; use Anthropic Claude/Claude Code to accelerate GIS tooling, documentation, and reporting automation.
       - Contribute to traditional geotechnical practice: boring logs, site investigation, and construction observation.
   - position: Owner & Coach
     company_name: Drizzle Ballers
@@ -149,7 +149,7 @@ skills:
         percent: 95
         icon: custom/data
       - name: Python
-        description: ''
+        description: 'arcpy, GDAL, AI-assisted (Claude Code)'
         percent: 90
         icon: custom/code
       - name: SQL

@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Civil-Geological Engineer | GIS & Remote Sensing
+role: GIS Analyst | Civil-Geological Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -39,10 +39,10 @@ profiles:
     url: https://www.linkedin.com/in/luis-angel-guerrero-hoyos-b3166912a/
 
 interests:
+  - GIS application development (ArcGIS Pro, arcpy)
   - Remote sensing (LiDAR, InSAR)
-  - GIS application & ETL automation
-  - Geotechnical engineering
   - AI-assisted engineering tooling
+  - Geotechnical engineering
 
 education:
   - area: MSc Civil Engineering
@@ -80,10 +80,10 @@ work:
     date_start: 2025-07-01
     summary: |-
       Responsibilities include:
-      - Lead development of SWLC3D, the firm's LiDAR-based change-detection pipeline (ICP registration + M3C2 analysis) using PDAL, CloudCompare, and arcpy, producing displacement-vector shapefiles and map-series deliverables for infrastructure and dam-monitoring programs; evaluated UAV LiDAR sensors (RIEGL miniVUX, YellowScan Venturer/Voyager, ROCK Ultra) for change detection over vegetated terrain.
-      - Act as GIS project lead across multiple concurrent client accounts, gathering stakeholder requirements and translating them into cartographic products, standardized map templates, and Python/arcpy ETL automation (raster sampling, cross-section map-series export), managing enterprise geodatabases and layer files across multi-site programs (97 layers across 10 sites for one program).
-      - Develop InSAR displacement-monitoring tools using Dolphin and PyGMTSAR, expanding the firm's remote-sensing service line.
-      - Build browser-based engineering web applications (VIKTOR), including a seismic-displacement calculator and an in-app documentation viewer; use Anthropic Claude/Claude Code to accelerate GIS tooling, documentation, and reporting automation.
+      - Act as GIS project lead across multiple concurrent client accounts, gathering stakeholder requirements and delivering production ArcGIS Pro applications, standardized map templates, and enterprise geodatabase/layer management (97 layers across 10 sites for one program).
+      - Lead development of SWLC3D, a Python/arcpy LiDAR change-detection pipeline (PDAL, CloudCompare, ICP registration + M3C2 analysis) with automated QA validation, producing displacement-vector shapefiles and map-series deliverables for infrastructure and dam-monitoring programs; evaluated UAV LiDAR sensors (RIEGL miniVUX, YellowScan Venturer/Voyager, ROCK Ultra) for change detection over vegetated terrain.
+      - Build Python/arcpy ETL automation (raster sampling, cross-section map-series export) and InSAR displacement-monitoring tools (Dolphin, PyGMTSAR), expanding the firm's remote-sensing service line.
+      - Build browser-based engineering web applications (VIKTOR), including a seismic-displacement calculator and an in-app documentation viewer, and use Anthropic Claude/Claude Code to accelerate GIS tooling, documentation, and reporting automation.
       - Contribute to traditional geotechnical practice: boring logs, site investigation, and construction observation.
   - position: Owner & Coach
     company_name: Drizzle Ballers
@@ -145,11 +145,11 @@ skills:
   - name: Technical Skills
     items:
       - name: GIS & Remote Sensing
-        description: 'QGIS, ArcGIS Pro, LiDAR, InSAR'
+        description: 'ArcGIS Pro, arcpy, QGIS, LiDAR, InSAR'
         percent: 95
         icon: custom/data
       - name: Python
-        description: 'arcpy, GDAL, AI-assisted (Claude Code)'
+        description: 'arcpy, GDAL, geoprocessing automation'
         percent: 90
         icon: custom/code
       - name: SQL
@@ -240,4 +240,4 @@ awards:
 
 ## About Me
 
-I am a Civil-Geological Engineer with 7+ years of experience combining traditional geotechnical practice — field explorations, laboratory testing, report preparation, and construction observation — with a specialized GIS and geospatial-automation skill set: building ArcGIS Pro applications, Python/arcpy ETL pipelines, and LiDAR change-detection tooling as GIS project lead across multiple concurrent client accounts, increasingly accelerated with AI-assisted development (Anthropic Claude, Claude Code). I hold a MSc degree in Civil Engineering (Geotechnical) from the University of Washington and a BSc degree in Geological Engineering from the Universidad Nacional de Colombia, and am currently pursuing PE licensure. I excel in both autonomous and team-based learning environments; with outstanding interpersonal, written, and communication skills. I am adaptable to change and committed to continuous improvement. My creative and innovative mindset is focused on problem-solving, particularly within the realms of geospatial analysis, data engineering, geophysics, geotechnical engineering, and risk management. In addition to my academic and professional pursuits, I have a love for football, both as a player and a fan.
+I am a GIS Analyst and Civil-Geological Engineer with 7+ years of experience building ArcGIS Pro applications, Python/arcpy geoprocessing and ETL automation, and LiDAR change-detection tooling as GIS project lead across multiple concurrent client accounts — paired with a background in traditional geotechnical practice: field explorations, laboratory testing, report preparation, and construction observation. I increasingly rely on AI-assisted development (Anthropic Claude, Claude Code) to accelerate GIS tooling and documentation. I hold a MSc degree in Civil Engineering (Geotechnical) from the University of Washington and a BSc degree in Geological Engineering from the Universidad Nacional de Colombia, and am currently pursuing PE licensure. I excel in both autonomous and team-based learning environments, with outstanding interpersonal, written, and communication skills, and a creative, problem-solving mindset focused on geospatial analysis, data engineering, geotechnical engineering, and risk management. In addition to my academic and professional pursuits, I have a love for football, both as a player and a fan.
